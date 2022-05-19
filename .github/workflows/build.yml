@@ -24,4 +24,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build and test
-      run: mvn build
+      run: mvn test
